@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cch-crawling"
+version = "0.1.0"
+description = ""
+authors = ["cch0807 <ckdgus11021@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "cch_crawling"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyautogui = "^0.9.54"
+black = "^23.7.0"
+python3-xlib = "^0.15"
+flake8 = "4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
